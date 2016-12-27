@@ -14,6 +14,11 @@
 		6E54E39B1E12C79100BFB192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E39A1E12C79100BFB192 /* Assets.xcassets */; };
 		6E54E39E1E12C79100BFB192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E39C1E12C79100BFB192 /* LaunchScreen.storyboard */; };
 		6E54E3A91E12C79200BFB192 /* switchConfettiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E54E3A81E12C79200BFB192 /* switchConfettiTests.m */; };
+		6E54E3B81E12C92900BFB192 /* confetti_explosion.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E3B31E12C92900BFB192 /* confetti_explosion.scnp */; };
+		6E54E3B91E12C92900BFB192 /* confetti_circle_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E3B41E12C92900BFB192 /* confetti_circle_map.png */; };
+		6E54E3BA1E12C92900BFB192 /* confetti_circle.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E3B51E12C92900BFB192 /* confetti_circle.scnp */; };
+		6E54E3BB1E12C92900BFB192 /* confetti_rectangle_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E3B61E12C92900BFB192 /* confetti_rectangle_map.png */; };
+		6E54E3BC1E12C92900BFB192 /* confetti_rectangle.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E3B71E12C92900BFB192 /* confetti_rectangle.scnp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		6E54E3A41E12C79200BFB192 /* switchConfettiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switchConfettiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E54E3A81E12C79200BFB192 /* switchConfettiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = switchConfettiTests.m; sourceTree = "<group>"; };
 		6E54E3AA1E12C79200BFB192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E54E3B31E12C92900BFB192 /* confetti_explosion.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = confetti_explosion.scnp; sourceTree = "<group>"; };
+		6E54E3B41E12C92900BFB192 /* confetti_circle_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti_circle_map.png; sourceTree = "<group>"; };
+		6E54E3B51E12C92900BFB192 /* confetti_circle.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = confetti_circle.scnp; sourceTree = "<group>"; };
+		6E54E3B61E12C92900BFB192 /* confetti_rectangle_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti_rectangle_map.png; sourceTree = "<group>"; };
+		6E54E3B71E12C92900BFB192 /* confetti_rectangle.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = confetti_rectangle.scnp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,11 @@
 		6E54E38D1E12C79100BFB192 /* switchConfetti */ = {
 			isa = PBXGroup;
 			children = (
+				6E54E3B31E12C92900BFB192 /* confetti_explosion.scnp */,
+				6E54E3B41E12C92900BFB192 /* confetti_circle_map.png */,
+				6E54E3B51E12C92900BFB192 /* confetti_circle.scnp */,
+				6E54E3B61E12C92900BFB192 /* confetti_rectangle_map.png */,
+				6E54E3B71E12C92900BFB192 /* confetti_rectangle.scnp */,
 				6E54E3911E12C79100BFB192 /* AppDelegate.h */,
 				6E54E3921E12C79100BFB192 /* AppDelegate.m */,
 				6E54E3941E12C79100BFB192 /* ViewController.h */,
@@ -195,7 +210,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E54E3BB1E12C92900BFB192 /* confetti_rectangle_map.png in Resources */,
+				6E54E3BC1E12C92900BFB192 /* confetti_rectangle.scnp in Resources */,
 				6E54E39E1E12C79100BFB192 /* LaunchScreen.storyboard in Resources */,
+				6E54E3BA1E12C92900BFB192 /* confetti_circle.scnp in Resources */,
+				6E54E3B81E12C92900BFB192 /* confetti_explosion.scnp in Resources */,
+				6E54E3B91E12C92900BFB192 /* confetti_circle_map.png in Resources */,
 				6E54E39B1E12C79100BFB192 /* Assets.xcassets in Resources */,
 				6E54E3991E12C79100BFB192 /* Main.storyboard in Resources */,
 			);
@@ -355,6 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N7T8T6Y2AL;
 				INFOPLIST_FILE = switchConfetti/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vk.switchConfetti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,6 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N7T8T6Y2AL;
 				INFOPLIST_FILE = switchConfetti/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vk.switchConfetti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
