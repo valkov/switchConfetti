@@ -13,23 +13,12 @@
 		6E54E3991E12C79100BFB192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E3971E12C79100BFB192 /* Main.storyboard */; };
 		6E54E39B1E12C79100BFB192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E39A1E12C79100BFB192 /* Assets.xcassets */; };
 		6E54E39E1E12C79100BFB192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E39C1E12C79100BFB192 /* LaunchScreen.storyboard */; };
-		6E54E3A91E12C79200BFB192 /* switchConfettiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E54E3A81E12C79200BFB192 /* switchConfettiTests.m */; };
 		6E54E3B81E12C92900BFB192 /* confetti_explosion.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E3B31E12C92900BFB192 /* confetti_explosion.scnp */; };
 		6E54E3B91E12C92900BFB192 /* confetti_circle_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E3B41E12C92900BFB192 /* confetti_circle_map.png */; };
 		6E54E3BA1E12C92900BFB192 /* confetti_circle.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E3B51E12C92900BFB192 /* confetti_circle.scnp */; };
 		6E54E3BB1E12C92900BFB192 /* confetti_rectangle_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E3B61E12C92900BFB192 /* confetti_rectangle_map.png */; };
 		6E54E3BC1E12C92900BFB192 /* confetti_rectangle.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 6E54E3B71E12C92900BFB192 /* confetti_rectangle.scnp */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6E54E3A51E12C79200BFB192 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E54E3831E12C79100BFB192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6E54E38A1E12C79100BFB192;
-			remoteInfo = switchConfetti;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6E54E38B1E12C79100BFB192 /* switchConfetti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switchConfetti.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,9 +31,6 @@
 		6E54E39A1E12C79100BFB192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E54E39D1E12C79100BFB192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E54E39F1E12C79100BFB192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E54E3A41E12C79200BFB192 /* switchConfettiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switchConfettiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E54E3A81E12C79200BFB192 /* switchConfettiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = switchConfettiTests.m; sourceTree = "<group>"; };
-		6E54E3AA1E12C79200BFB192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E54E3B31E12C92900BFB192 /* confetti_explosion.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = confetti_explosion.scnp; sourceTree = "<group>"; };
 		6E54E3B41E12C92900BFB192 /* confetti_circle_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti_circle_map.png; sourceTree = "<group>"; };
 		6E54E3B51E12C92900BFB192 /* confetti_circle.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = confetti_circle.scnp; sourceTree = "<group>"; };
@@ -60,13 +46,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E54E3A11E12C79200BFB192 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				6E54E38D1E12C79100BFB192 /* switchConfetti */,
-				6E54E3A71E12C79200BFB192 /* switchConfettiTests */,
 				6E54E38C1E12C79100BFB192 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				6E54E38B1E12C79100BFB192 /* switchConfetti.app */,
-				6E54E3A41E12C79200BFB192 /* switchConfettiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,15 +94,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6E54E3A71E12C79200BFB192 /* switchConfettiTests */ = {
-			isa = PBXGroup;
-			children = (
-				6E54E3A81E12C79200BFB192 /* switchConfettiTests.m */,
-				6E54E3AA1E12C79200BFB192 /* Info.plist */,
-			);
-			path = switchConfettiTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,24 +114,6 @@
 			productReference = 6E54E38B1E12C79100BFB192 /* switchConfetti.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6E54E3A31E12C79200BFB192 /* switchConfettiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6E54E3B01E12C79200BFB192 /* Build configuration list for PBXNativeTarget "switchConfettiTests" */;
-			buildPhases = (
-				6E54E3A01E12C79200BFB192 /* Sources */,
-				6E54E3A11E12C79200BFB192 /* Frameworks */,
-				6E54E3A21E12C79200BFB192 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6E54E3A61E12C79200BFB192 /* PBXTargetDependency */,
-			);
-			name = switchConfettiTests;
-			productName = switchConfettiTests;
-			productReference = 6E54E3A41E12C79200BFB192 /* switchConfettiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,12 +127,6 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = N7T8T6Y2AL;
 						ProvisioningStyle = Automatic;
-					};
-					6E54E3A31E12C79200BFB192 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = N7T8T6Y2AL;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 6E54E38A1E12C79100BFB192;
 					};
 				};
 			};
@@ -200,7 +144,6 @@
 			projectRoot = "";
 			targets = (
 				6E54E38A1E12C79100BFB192 /* switchConfetti */,
-				6E54E3A31E12C79200BFB192 /* switchConfettiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,13 +164,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E54E3A21E12C79200BFB192 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -241,23 +177,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E54E3A01E12C79200BFB192 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E54E3A91E12C79200BFB192 /* switchConfettiTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6E54E3A61E12C79200BFB192 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6E54E38A1E12C79100BFB192 /* switchConfetti */;
-			targetProxy = 6E54E3A51E12C79200BFB192 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6E54E3971E12C79100BFB192 /* Main.storyboard */ = {
@@ -395,32 +315,6 @@
 			};
 			name = Release;
 		};
-		6E54E3B11E12C79200BFB192 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = N7T8T6Y2AL;
-				INFOPLIST_FILE = switchConfettiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vk.switchConfettiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switchConfetti.app/switchConfetti";
-			};
-			name = Debug;
-		};
-		6E54E3B21E12C79200BFB192 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = N7T8T6Y2AL;
-				INFOPLIST_FILE = switchConfettiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vk.switchConfettiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switchConfetti.app/switchConfetti";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -440,14 +334,7 @@
 				6E54E3AF1E12C79200BFB192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		6E54E3B01E12C79200BFB192 /* Build configuration list for PBXNativeTarget "switchConfettiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6E54E3B11E12C79200BFB192 /* Debug */,
-				6E54E3B21E12C79200BFB192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
